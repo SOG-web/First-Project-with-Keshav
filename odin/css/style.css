@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.go {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 200px;
+    margin-top: 50px;
+}

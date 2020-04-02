@@ -1,0 +1,31 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#chats {
+    text-align: center;
+    font-size: large;
+}
+
+.image {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#img {
+    padding: 1px;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid cornflowerblue;
+}
+
+.img {
+    width: 100px;
+    border-radius: 55%;
+}
